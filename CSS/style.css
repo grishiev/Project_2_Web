@@ -258,7 +258,7 @@ footer{
     height: 70px;
     width:auto;
     position: relative;
-    animation: sailboat-box 10s infinite;
+    animation: sailboat-box 20s infinite;
     animation-timing-function:linear;
 
 }
@@ -281,12 +281,12 @@ footer{
 
 @keyframes sailboat-box {
     0%{
-        bottom: -15vh;
+        bottom: -100px; /*-13vh;*/
         left: 10px;
         transform: rotate(0deg);
     }
 
-    25%{
+    40%{
         left: calc(100vw - 100px);
         bottom: -100px;
          transform: rotate(0deg);
@@ -299,7 +299,7 @@ footer{
         transform: rotate(-180deg);
     }
     
-    75%{
+    90%{
         left: 10px;
         bottom: 100px;
         transform: rotate(-180deg);
